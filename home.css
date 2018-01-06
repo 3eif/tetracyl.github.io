@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Regular.ttf);
+}
+
+@font-face {
+	font-family: Lato-Bold;
+    src: url(Lato-Bold.ttf);
+}
+
+div {
+    font-family: Lato;
+}
+
+div {
+	font-family: Lato-Bold;
+}
+
+h1{
+    font-family: Lato-Bold;
+    color: dimgray;
+    margin-top: 0.8%;
+    font-size: 65px;
+}
+
+h3{
+    font-family: Lato;
+    color: dimgray;
+    font-size: 25px;
+    margin-top: 1%;
+}
+
+img{
+    margin-top: 1.2%;
+}
+
+body {
+    background-image: url("realback.png");
+    background-repeat: repeat;
+}
+
+.jumbotron{
+margin-top: 20%;
+color: #34495e;
+background-color:none !important;
+	
+}
+
+p{
+	font-family: Lato;
+	margin-left: 5%;
+}
+
+h6{
+	font-family: Lato-Bold; 
+	margin-left: 5%;
+}
+
+h2{
+	font-size: 48px;
+	font-family: Lato-Bold;
+	
+	
+}
+
+div.Game img{
+	margin-right: 5%;
+	width: 520px;
+	height: 400px;
+}
+
+.ml-1 {
+  margin-left: ($spacer-x * .25) !important;
+}
